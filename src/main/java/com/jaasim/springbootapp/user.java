@@ -1,4 +1,4 @@
-﻿package com.jaasim.springbootapp;
+package com.jaasim.springbootapp;
 
 public class user {
     private String id;
