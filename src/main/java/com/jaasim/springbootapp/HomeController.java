@@ -24,7 +24,7 @@ public class HomeController {
     public String delete(@PathVariable String id) {
         return "deleted "+id;
     }
-    @getMapping("get/{id}")
+    @GetMapping("get/{id}")
     public String getById(@PathVariable String id) {
         return "get "+id;
     }
