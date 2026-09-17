@@ -1,12 +1,12 @@
 package com.jaasim.springbootapp;
 
-public class user {
+public class User {
     private String id;
     private String firstName;
     private String lastName;
     private String email;
 
-    public user(String id, String firstName, String lastName, String email) {
+    public User(String id, String firstName, String lastName, String email) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
