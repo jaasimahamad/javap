@@ -1,6 +1,9 @@
 package com.jaasim.springbootapp;
 
+@jakarta.persistence.Entity 
+@jakarta.persistence.Table(name = "users")
 public class User {
+    
     private String id;
     private String firstName;
     private String lastName;
